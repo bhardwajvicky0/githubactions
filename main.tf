@@ -17,7 +17,7 @@ provider "google" {
 
 
 resource "google_storage_bucket" "gcs_bucket" {
-  name = "test-bucket-random-0011230987"
+  name = "test-bucket-random-0011230987876"
 }
 
 #resource "google_service_account" "default" {
