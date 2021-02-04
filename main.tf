@@ -19,11 +19,11 @@
 #resource "google_storage_bucket" "gcs_bucket" {
 #  name = "test-bucket-random-0011230987"
 #}
-#resource "google_service_account" "default" {
-#  account_id   = "service_account_id"
-#  display_name = "Service Account"
-#}
-#
+resource "google_service_account" "default" {
+  account_id   = "service_account_id"
+  display_name = "Service Account"
+}
+
 resource "google_compute_instance" "default" {
   name         = "test"
   machine_type = "e2-micro"
